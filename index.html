@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Aperture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            $(".header__burger-btn").click(function () {
+            $(".header__nav-mobile").slideToggle("slow");
+            $(this).toggleClass("active");
+            return false;
+            });
+        });
+    </script>
+
+
+    <header>
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <img src="/sources/Combined-Shape.png" alt="aperture" class="header__logo-img">
+            </div>
+            <span class="header__span">Business areas</span>
+            <div class="header__nav">
+                <nav>
+                    <ul>
+                        <li><a href="#">Featured images</a> </li>
+                        <li><a href="#">Gear cage</a> </li>
+                        <li><a href="#">Contact</a> </li>
+                        <li><button>Get template</button></li>
+                    </ul>
+                </nav>
+                <div class="header__burger">
+                    <a href="#" class="header__burger-btn">
+                        <img src="/sources/burger_icon.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav-mobile">
+            <nav>
+                <ul>
+                    <li><a href="#">Featured images</a> </li>
+                    <li><a href="#">Gear cage</a> </li>
+                    <li><a href="#">Contact</a> </li>
+                    <li><button>Get template</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="main__wrapper">
+                <div class="main__background">
+                    <img src="/sources/IMAGE.png">
+                </div>
+                <div class="main__content">
+                    <div class="main__text">
+                        <h3>Photographer & Filmmaker</h3>
+                        <h1>Aperture Studios</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                    </div>
+                    <div class="data">
+                        <div class="main__data-element data-element">
+                            <img src="/sources/Combined-Shape (1).png">
+                            <span>1/2000s</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Combined-Shape (2).png">
+                            <span>f/11</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Combined-Shape (3).png">
+                            <span>100</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Fill-1.png">
+                            <span>Iceland</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="about__wrapper">
+                <div class="about__text">
+                    <h2>What we do.</h2>
+                    <span>The areas that we're specialized in.</span>
+                </div>
+                <div class="about__cards">
+                    <div class="about__cards-card">
+                        <img src="/sources/IMAGE (1).png">
+                        <div class="card__text">
+                            <span>Product Photography</span>
+                            <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                            <button><div></div> Read more</button>
+                        </div>
+                    </div>
+                    <div class="about__cards-card">
+                        <img src="/sources/IMAGE (2).png">
+                        <div class="card__text">
+                            <span>Architecture Photography</span>
+                            <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</p>
+                            <button><div></div> Read more</button>
+                        </div>
+                    </div>
+                    <div class="about__cards-card">
+                        <img src="/sources/IMAGE (3).png">
+                        <div class="card__text">
+                            <span>Drone Photography</span>
+                            <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                            <button><div></div> Read more</button>
+                        </div>
+                    </div>
+                    <div class="about__cards-card">
+                        <img src="/sources/IMAGE (4).png">
+                        <div class="card__text">
+                            <span>Wildlife Photography</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+                            <button><div></div> Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="sunset__wrapper">
+                <div class="sunset__background">
+                    <img src="/sources/IMAGE (5).png">
+                </div>
+                <div class="sunset__content">
+                    <div class="sunset__content-text">
+                        <h3>Sunset at Mount Fuji</h3>
+                        <p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
+                    </div>
+                    <div class="data">
+                        <div class="data-element">
+                            <img src="/sources/Combined-Shape (1).png">
+                            <span>1''</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Combined-Shape (2).png">
+                            <span>f/16</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Combined-Shape (3).png">
+                            <span>400</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Fill-1.png">
+                            <span>Japan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="tools__wrapper">
+                <div class="tools__left">
+                    <h3>The Gear cage</h3>
+                    <h2>The tools that we use.</h2>
+                    <p>The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed film". While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday to capture the amazing things around us.</p>
+                    <button><div></div> Check it out</button>
+                </div>
+                <div class="tools__right">
+                    <img src="/sources/IMAGE (6).png" >
+                </div>
+                <div class="data">
+                    <div class="main__data-element data-element">
+                        <img src="/sources/Combined-Shape (1).png">
+                        <span>0,8''</span>
+                    </div>
+                    <div class="data-element">
+                        <img src="/sources/Combined-Shape (2).png">
+                        <span>f/5,6</span>
+                    </div>
+                    <div class="data-element">
+                        <img src="/sources/Combined-Shape (3).png">
+                        <span>100</span>
+                    </div>
+                    <div class="data-element">
+                        <img src="/sources/Fill-1.png">
+                        <span>Sweden</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="sunset__wrapper monstera__wrapper">
+                <div class="sunset__background">
+                    <img src="/sources/IMAGE (7).png">
+                </div>
+                <div class="sunset__content">
+                    <div class="sunset__content-text">
+                        <h3>Monstera Leafs</h3>
+                        <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+                    </div>
+                    <div class="data">
+                        <div class="data-element">
+                            <img src="/sources/Combined-Shape (1).png">
+                            <span>1/400s</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Combined-Shape (2).png">
+                            <span>f/3,5</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Combined-Shape (3).png">
+                            <span>400</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Fill-1.png">
+                            <span>Costa Rica</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="clients__wrapper">
+                <div class="clients__text">
+                    <h2>Past clients</h2>
+                    <span>Trusted by your favourite companies</span>
+                </div>
+                <div class="clients__icons">
+                    <img src="/sources/Combined-Shape (4).png">
+                    <img src="/sources/Combined-Shape (5).png">
+                    <img src="/sources/Combined-Shape (6).png">
+                    <img src="/sources/Combined-Shape (7).png">
+                    <img src="/sources/Combined-Shape (8).png">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="sunset__wrapper star__wrapper">
+                <div class="sunset__background">
+                    <img src="/sources/IMAGE (8).png">
+                </div>
+                <div class="sunset__content">
+                    <div class="sunset__content-text">
+                        <h3>Star fall in the Himalayas</h3>
+                        <p>Nulla rhoncus feugiat eros quis consectetur. 
+                            Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.</p>
+                    </div>
+                    <div class="data">
+                        <div class="data-element">
+                            <img src="/sources/Combined-Shape (1).png">
+                            <span>6''</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Combined-Shape (2).png">
+                            <span>f/11</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Combined-Shape (3).png">
+                            <span>800</span>
+                        </div>
+                        <div class="data-element">
+                            <img src="/sources/Fill-1.png">
+                            <span>Nepal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="help__wrapper">
+                <h2>Need help with photography or videography?</h2>
+                <h3>We're here for you!</h3>
+                <button><div></div>Get in touch</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__wrapper">
+            <div class="footer__nav">
+                <div class="footer__nav-logo">
+                    <div class="footer__nav__logo-img">
+                        <img src="/sources/Combined-Shape.png">
+                    </div>
+                    <div class="footer__nav__logo-text">
+                        <p>Photographers & videographers capturing the world around us.</p>
+                    </div>
+                </div>
+                <div class="footer__nav-lists">
+                    <div class="footer__nav__lists-list">
+                        <ul>
+                            <li>Business areas</li>
+                            <li><a href="#">Product Photography</a></li>
+                            <li><a href="#">Architecture Photography</a></li>
+                            <li><a href="#">Drone Photography</a></li>
+                            <li><a href="#">Wildlife Photography</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav__lists-list">
+                        <ul>
+                            <li>Pages</li>
+                            <li><a href="#">Gear cage</a></li>
+                            <li><a href="#">Featured images</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Style guide</a></li>
+                            <li><a href="#">Instructions</a></li>
+                            <li><a href="#">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+                <div class="line"></div>
+
+            <div class="footer__mail">
+                <div class="footer__mail-text">
+                    <h3>Subscribe to our newsletter</h3>
+                    <p>Read about all the things we do.</p>
+                </div>
+                <div class="footer__mail-form">
+                    <input type="email">
+                    <button type="submit">....</button>
+                </div>
+            </div>
+
+                <div class="line"></div>
+
+            <div class="footer__copyright">
+                <div class="footer__copyright-text">
+                    <p>© Aperture Photography, Inc. All rights reserved .</p>
+                    <span>Licensing</span>
+                </div>
+                <div class="footer__copyright-links">
+                    <a href="#"><img src="/sources/Path.png" alt="Telegram"></a>
+                    <a href="#"><img src="/sources/Shape.png" alt="Instagram"></a>
+                    <a href="#"><img src="/sources/Path (1).png" alt="Facebook"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
